@@ -40,12 +40,17 @@ console.log("Pontuação final: ", total);
 
 const missoes = [
     {nome: "Salvar a aldeia", status: "concluida"},
-    {nome: "Encontrar o mapa", status : "em andamento"},
+    {nome: "Encontrar o mapa", status: "em andamento"},
     {nome: "Derrotar o chefe", status: "falhou"},
     {nome: "Coletar recursos", status: "concluida"},
 ];
 
+const concluidas = filtrarMissoesConcluidas(missoes);
+console.log("Missões concluídas: ", concluidas);
 
-console.log(missoes);
+
+const mochila = ["Mapa", "Lanterna"];
+const mochilaAtualizada = atualizarInventario(mochila, "pegar", "Bússola");
+console.log("")
 
 
