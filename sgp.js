@@ -51,6 +51,6 @@ console.log("Missões concluídas: ", concluidas);
 
 const mochila = ["Mapa", "Lanterna"];
 const mochilaAtualizada = atualizarInventario(mochila, "pegar", "Bússola");
-console.log("")
+console.log("Mochila após pegar: ", mochilaAtualizada);
 
 
